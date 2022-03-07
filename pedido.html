@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Baker Hugs</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body class="pagina1" style="background-color: rgb(247, 173, 210)">
+    <header style="background-color: antiquewhite">
+      <section id="encabezado" style="position: relative; top: 0px">
+        <div class="container">
+          <table class="table" width="800" cellpadding="20" cellspacing="2">
+            <tr>
+              <td>
+                <h1>
+                  <img src="./assets/logopastel.png" height="250px" />
+                </h1>
+              </td>
+              <td>
+                <h1>
+                  <img src="./assets/logoletras.png" height="250px" />
+                </h1>
+              </td>
+              <td>
+                <div class="navigation">
+                  <nav>
+                    <ul>
+                      <li>
+                        <a href="./index.html">Pagina principal</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </header>
+    <hr />
+    <h1>Realiza aqui tu pedido</h1>
+    <br />
+    <form action="/pedido.js">
+      <label for="Nombre">Comienza dandonos tu nombre</label><br />
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe aqui tu nombre"
+      />
+      <br />
+      <label for="correo">Correo electronico</label><br />
+      <input
+        type="mail"
+        id="correo"
+        name="correo"
+        placeholder="Escribe aqui tu correo"
+      />
+      <br />
+      <label for="telefono">Telefono</label><br />
+      <input
+        type="tel"
+        id="telefono"
+        name="telefono"
+        placeholder="Escribe aqui tu telefono"
+      />
+      <br />
+      <hr />
+
+      <h2>Ahora elige el sabor y numero de tortas</h2>
+      <label for="saborTorta">Vainilla</label>
+      <input type="checkbox" id="vainilla" name="vainilla" value="vainilla" />
+      <input
+        type="number"
+        id="vainillaCantidad"
+        name="vainillaCantidad"
+        placeholder="Cuantas"
+      />
+      <br />
+      <label for="saborTorta">Chocolate</label>
+      <input
+        type="checkbox"
+        id="chocolate"
+        name="chocolate"
+        value="chocolate"
+      />
+      <input
+        type="number"
+        id="chocolateCantidad"
+        name="chocolateCantidad"
+        placeholder="Cuantas"
+      />
+      <br />
+      <label for="saborTorta">Limon</label>
+      <input type="checkbox" id="limon" name="limon" value="limon" />
+      <input
+        type="number"
+        id="limonCantidad"
+        name="limonCantidad"
+        placeholder="Cuantas"
+      />
+      <br />
+      <label for="saborTorta">Nuez</label>
+      <input type="checkbox" id="nuez" name="nuez" value="nuez" />
+      <input
+        type="number"
+        id="nuezCantidad"
+        name="nuezCantidad"
+        placeholder="Cuantas"
+      />
+      <br />
+      <label for="saborTorta">Red Velvet</label>
+      <input
+        type="checkbox"
+        id="redVelvet"
+        name="redVelvet"
+        value="redVelvet"
+      />
+      <input
+        type="number"
+        id="redVelvetCantidad"
+        name="redVelvetCantidad"
+        placeholder="Cuantas"
+      />
+      <br />
+      <label for="saborTorta">Tres Leches</label>
+      <input
+        type="checkbox"
+        id="tresLeches"
+        name="tresLeches"
+        value="tresLeches"
+      />
+      <input
+        type="number"
+        id="tresLechesCantidad"
+        name="tresLechesCantidad"
+        placeholder="Cuantas"
+      />
+      <br />
+      <label for="saborTorta">Zanahoria</label>
+      <input
+        type="checkbox"
+        id="zanahoria"
+        name="zanahoria"
+        value="zanahoria"
+      />
+      <input
+        type="number"
+        id="zanahoriaCantidad"
+        name="zanahoriaCantidad"
+        placeholder="Cuantas"
+      />
+      <hr />
+      <h2>Elige el betun de tu preferencia</h2>
+      <select name="betun" id="betun">
+        <option value="chocolate">Chocolate</option>
+        <option value="vainilla">vainilla</option>
+        <option value="fresa">Fresa</option>
+        <option value="limon">Limon</option>
+        <option value="coco">Coco</option>
+        <option value="caramelo">Caramelo</option>
+        <option value="aleman">Aleman</option>
+        <option value="creamCheese">Cream Chesse</option>
+        <option value="mantequillaCremosa">Mantequilla Cremosa</option>
+      </select>
+      <hr />
+      <h2>Finalmente, elige los adornos que prefieras</h2>
+      <label for="velaMagica">Vela Magica</label>
+      <input
+        type="checkbox"
+        id="velaMagica"
+        name="velaMagica"
+        value="velaMagica"
+      />
+      <br />
+      <label for="globos">Globos</label>
+      <input type="checkbox" id="globos" name="globos" value="globos" /> <br />
+      <label for="sorpresaBilletes">Sorpresa Billetes</label>
+      <input
+        type="checkbox"
+        id="sorpresaBilletes"
+        name="sorpresaBilletes"
+        value="sorpresaBilletes"
+      />
+      <br />
+      <label for="juguete">Juguege</label>
+      <input type="checkbox" id="juguete" name="juguete" value="juguete" />
+      <br />
+      <label for="dibujo">Dibujo</label>
+      <input type="checkbox" id="dibujo" name="dibujo" value="dibujo" /> <br />
+      <label for="flores">Vela Magica</label>
+      <input type="checkbox" id="flores" name="flores" value="flores" /> <br />
+      <hr />
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
